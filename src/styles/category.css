@@ -1,0 +1,70 @@
+.category-page {
+  width: 90%;
+  max-width: 1250px;
+
+  margin: 50px auto;
+}
+
+.category-banner {
+  min-height: 230px;
+
+  border-radius: 20px;
+
+  margin-bottom: 40px;
+
+  padding: 50px;
+
+  color: white;
+
+  display: flex;
+
+  flex-direction: column;
+
+  justify-content: center;
+}
+
+.category-banner h1 {
+  font-size: 40px;
+}
+
+.category-banner p {
+  margin-top: 10px;
+}
+
+.women-banner {
+  background:
+    linear-gradient(
+      120deg,
+      #7b2cbf,
+      #f72585
+    );
+}
+
+.men-banner {
+  background:
+    linear-gradient(
+      120deg,
+      #240046,
+      #5a189a
+    );
+}
+
+.kids-banner {
+  background:
+    linear-gradient(
+      120deg,
+      #ff6f00,
+      #e91e63
+    );
+}
+
+@media (max-width: 600px) {
+
+  .category-banner {
+    padding: 30px;
+  }
+
+  .category-banner h1 {
+    font-size: 30px;
+  }
+}

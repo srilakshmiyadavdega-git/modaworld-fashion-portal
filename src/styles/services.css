@@ -1,0 +1,51 @@
+.services {
+  width: 90%;
+  max-width: 1250px;
+
+  margin: 60px auto;
+
+  display: grid;
+
+  grid-template-columns:
+    repeat(4, 1fr);
+
+  gap: 20px;
+}
+
+.service {
+  background: white;
+
+  padding: 22px;
+
+  border-radius: 12px;
+
+  display: flex;
+
+  gap: 15px;
+
+  border: 1px solid var(--border);
+}
+
+.service > span {
+  font-size: 25px;
+}
+
+.service h4 {
+  font-size: 13px;
+}
+
+.service p {
+  color: var(--gray);
+
+  font-size: 10px;
+
+  margin-top: 4px;
+}
+
+@media (max-width: 700px) {
+
+  .services {
+    grid-template-columns:
+      repeat(2, 1fr);
+  }
+}

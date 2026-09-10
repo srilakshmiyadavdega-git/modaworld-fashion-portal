@@ -1,0 +1,462 @@
+{
+  "products": [
+    {
+      "id": "1",
+      "name": "Elegant Pink Top",
+      "category": "Women",
+      "price": 999,
+      "oldPrice": 1499,
+      "image": "https://images.unsplash.com/photo-1485968579580-b6d095142e6e?auto=format&fit=crop&w=500&q=80",
+      "description": "Trendy pink top for casual and party wear."
+    },
+    {
+      "id": "2",
+      "name": "Classic Blue Jeans",
+      "category": "Women",
+      "price": 1499,
+      "oldPrice": 1999,
+      "image": "https://images.unsplash.com/photo-1541099649105-f69ad21f3246?auto=format&fit=crop&w=500&q=80",
+      "description": "Comfortable blue jeans for everyday fashion."
+    },
+    {
+      "id": "3",
+      "name": "White Casual Sneakers",
+      "category": "Unisex",
+      "price": 1299,
+      "oldPrice": 1799,
+      "image": "https://images.unsplash.com/photo-1542291026-7eec264c27ff?auto=format&fit=crop&w=500&q=80",
+      "description": "Stylish white sneakers for casual outfits."
+    },
+    {
+      "id": "4",
+      "name": "Elegant Fashion Handbag",
+      "category": "Accessories",
+      "price": 899,
+      "oldPrice": 1299,
+      "image": "https://images.unsplash.com/photo-1584917865442-de89df76afd3?auto=format&fit=crop&w=500&q=80",
+      "description": "Elegant handbag accessory for every outfit."
+    },
+    {
+      "id": "5",
+      "name": "Floral Summer Dress",
+      "category": "Women",
+      "price": 1299,
+      "oldPrice": 2599,
+      "rating": 4.5,
+      "image": "https://images.unsplash.com/photo-1496747611176-843222e1e57c?auto=format&fit=crop&w=700&q=80",
+      "description": "Beautiful floral summer dress with a comfortable and elegant fit."
+    },
+    {
+      "id": "6",
+      "name": "Classic Denim Jacket",
+      "category": "Men",
+      "price": 2499,
+      "oldPrice": 3499,
+      "rating": 4.4,
+      "image": "https://images.unsplash.com/photo-1551028719-00167b16eac5?auto=format&fit=crop&w=700&q=80",
+      "description": "Premium denim jacket designed for a stylish modern look."
+    },
+    {
+      "id": "7",
+      "name": "Elegant Pink Dress",
+      "category": "Women",
+      "price": 1999,
+      "oldPrice": 2999,
+      "rating": 4.7,
+      "image": "https://images.unsplash.com/photo-1539008835657-9e8e9680c956?auto=format&fit=crop&w=700&q=80",
+      "description": "Elegant pink dress perfect for parties and special occasions."
+    },
+    {
+      "id": "8",
+      "name": "Men Casual Shirt",
+      "category": "Men",
+      "price": 999,
+      "oldPrice": 1599,
+      "rating": 4.3,
+      "image": "https://images.unsplash.com/photo-1602810318383-e386cc2a3ccf?auto=format&fit=crop&w=700&q=80",
+      "description": "Comfortable casual shirt suitable for everyday fashion."
+    },
+    {
+      "id": "9",
+      "name": "Kids Party Outfit",
+      "category": "Kids",
+      "price": 899,
+      "oldPrice": 1299,
+      "rating": 4.6,
+      "image": "https://images.unsplash.com/photo-1519238263530-99bdd11df2ea?auto=format&fit=crop&w=700&q=80",
+      "description": "Cute and comfortable party outfit for kids."
+    },
+    {
+      "id": "10",
+      "name": "Modern Black Dress",
+      "category": "Women",
+      "price": 1799,
+      "oldPrice": 2499,
+      "rating": 4.5,
+      "image": "https://images.unsplash.com/photo-1595777457583-95e059d581b8?auto=format&fit=crop&w=700&q=80",
+      "description": "Modern black dress for a classy and confident look."
+    },
+    {
+      "id": "11",
+      "name": "Stylish Sneakers",
+      "category": "Men",
+      "price": 2199,
+      "oldPrice": 2999,
+      "rating": 4.4,
+      "image": "https://images.unsplash.com/photo-1542291026-7eec264c27ff?auto=format&fit=crop&w=700&q=80",
+      "description": "Comfortable stylish sneakers for everyday use."
+    },
+    {
+      "id": "12",
+      "name": "Kids Colorful Dress",
+      "category": "Kids",
+      "price": 1199,
+      "oldPrice": 1799,
+      "rating": 4.5,
+      "image": "https://images.unsplash.com/photo-1503919545889-aef636e10ad4?auto=format&fit=crop&w=700&q=80",
+      "description": "Colorful and stylish dress designed for kids."
+    },
+    {
+      "id": "13",
+      "name": "Women White Top",
+      "category": "Women",
+      "price": 799,
+      "oldPrice": 1299,
+      "rating": 4.2,
+      "image": "https://images.unsplash.com/photo-1551488831-00ddcb6c6bd3?auto=format&fit=crop&w=700&q=80",
+      "description": "Minimal white top for casual everyday styling."
+    },
+    {
+      "id": "14",
+      "name": "Men Formal Blazer",
+      "category": "Men",
+      "price": 2999,
+      "oldPrice": 4999,
+      "rating": 4.8,
+      "image": "https://images.unsplash.com/photo-1507679799987-c73779587ccf?auto=format&fit=crop&w=700&q=80",
+      "description": "Premium formal blazer for professional occasions."
+    },
+    {
+      "id": "15",
+      "name": "Women Floral Blouse",
+      "category": "Women",
+      "price": 1099,
+      "oldPrice": 1799,
+      "rating": 4.4,
+      "image": "https://images.unsplash.com/photo-1485968579580-b6d095142e6e?auto=format&fit=crop&w=700&q=80",
+      "description": "Beautiful floral blouse that adds a stylish touch to any outfit."
+    },
+    {
+      "id": "16",
+      "name": "Men Oversized Hoodie",
+      "category": "Men",
+      "price": 1499,
+      "oldPrice": 2299,
+      "rating": 4.6,
+      "image": "https://images.unsplash.com/photo-1556821840-3a63f95609a7?auto=format&fit=crop&w=700&q=80",
+      "description": "Trendy oversized hoodie offering comfort and a modern streetwear look."
+    },
+    {
+      "id": "17",
+      "name": "Kids Denim Jacket",
+      "category": "Kids",
+      "price": 999,
+      "oldPrice": 1599,
+      "rating": 4.3,
+      "image": "https://images.unsplash.com/photo-1519457431-44ccd64a579b?auto=format&fit=crop&w=700&q=80",
+      "description": "Stylish denim jacket designed especially for fashionable kids."
+    },
+    {
+      "id": "18",
+      "name": "Women Casual Jeans",
+      "category": "Women",
+      "price": 1399,
+      "oldPrice": 2199,
+      "rating": 4.5,
+      "image": "https://images.unsplash.com/photo-1541099649105-f69ad21f3246?auto=format&fit=crop&w=700&q=80",
+      "description": "Comfortable casual jeans with a trendy fit for everyday wear."
+    },
+    {
+      "id": "19",
+      "name": "Men Cotton T-Shirt",
+      "category": "Men",
+      "price": 699,
+      "oldPrice": 999,
+      "rating": 4.3,
+      "image": "https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?auto=format&fit=crop&w=700&q=80",
+      "description": "Soft premium cotton t-shirt perfect for casual everyday outfits."
+    },
+    {
+      "id": "20",
+      "name": "Kids Casual T-Shirt",
+      "category": "Kids",
+      "price": 599,
+      "oldPrice": 899,
+      "rating": 4.4,
+      "image": "https://images.unsplash.com/photo-1622290291468-a28f7a7dc6a8?auto=format&fit=crop&w=700&q=80",
+      "description": "Fun and comfortable casual t-shirt made for active kids."
+    },
+    {
+      "id": "21",
+      "name": "Women Leather Handbag",
+      "category": "Women",
+      "price": 1899,
+      "oldPrice": 2999,
+      "rating": 4.7,
+      "image": "https://images.unsplash.com/photo-1584917865442-de89df76afd3?auto=format&fit=crop&w=700&q=80",
+      "description": "Elegant leather handbag with a premium design for everyday use."
+    },
+    {
+      "id": "22",
+      "name": "Men Classic Watch",
+      "category": "Men",
+      "price": 2299,
+      "oldPrice": 3999,
+      "rating": 4.6,
+      "image": "https://images.unsplash.com/photo-1524805444758-089113d48a6d?auto=format&fit=crop&w=700&q=80",
+      "description": "Classic stylish watch designed to complement both casual and formal outfits."
+    },
+    {
+      "id": "23",
+      "name": "Kids Winter Sweater",
+      "category": "Kids",
+      "price": 1099,
+      "oldPrice": 1699,
+      "rating": 4.5,
+      "image": "https://images.unsplash.com/photo-1519457431-44ccd64a579b?auto=format&fit=crop&w=700&q=80",
+      "description": "Warm and comfortable sweater perfect for kids during winter."
+    },
+    {
+      "id": "24",
+      "name": "Women Party Gown",
+      "category": "Women",
+      "price": 2799,
+      "oldPrice": 4499,
+      "rating": 4.9,
+      "image": "https://images.unsplash.com/photo-1566174053879-31528523f8ae?auto=format&fit=crop&w=700&q=80",
+      "description": "Elegant party gown designed to create a glamorous and sophisticated look."
+    },
+    
+  {
+    "id": "top1",
+    "name": "Classic White Cotton Shirt",
+    "category": "Top",
+    "price": 1299,
+    "discount": 10,
+    "image": "https://images.unsplash.com/photo-1603252110481-7ba873bf42ab?w=600&auto=format&fit=crop",
+    "description": "Comfortable white cotton shirt for everyday styling.",
+    "sizes": ["S", "M", "L", "XL"],
+    "colors": ["White"],
+    "stock": 20,
+    "rating": 4.5
+  },
+  {
+    "id": "top2",
+    "name": "Elegant Pink Crop Top",
+    "category": "Top",
+    "price": 899,
+    "discount": 15,
+    "image": "https://images.unsplash.com/photo-1529139574466-a303027c1d8b?w=600&auto=format&fit=crop",
+    "description": "Stylish pink crop top with a modern fit.",
+    "sizes": ["S", "M", "L"],
+    "colors": ["Pink"],
+    "stock": 15,
+    "rating": 4.3
+  },
+  {
+    "id": "top3",
+    "name": "Black Casual T-Shirt",
+    "category": "Top",
+    "price": 699,
+    "discount": 10,
+    "image": "https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?w=600&auto=format&fit=crop",
+    "description": "Soft black t-shirt for casual outfits.",
+    "sizes": ["S", "M", "L", "XL"],
+    "colors": ["Black"],
+    "stock": 25,
+    "rating": 4.4
+  },
+  {
+    "id": "top4",
+    "name": "Blue Denim Shirt",
+    "category": "Top",
+    "price": 1499,
+    "discount": 20,
+    "image": "https://images.unsplash.com/photo-1601333144130-8cbb312386b6?w=600&auto=format&fit=crop",
+    "description": "Classic blue denim shirt for a smart casual look.",
+    "sizes": ["M", "L", "XL"],
+    "colors": ["Blue"],
+    "stock": 18,
+    "rating": 4.6
+  },
+  {
+    "id": "bottom1",
+    "name": "Blue Straight Fit Jeans",
+    "category": "Bottom",
+    "price": 1799,
+    "discount": 15,
+    "image": "https://images.unsplash.com/photo-1542272604-787c3835535d?w=600&auto=format&fit=crop",
+    "description": "Comfortable straight fit jeans for everyday wear.",
+    "sizes": ["28", "30", "32", "34", "36"],
+    "colors": ["Blue"],
+    "stock": 20,
+    "rating": 4.5
+  },
+  {
+    "id": "bottom2",
+    "name": "Black Wide Leg Trousers",
+    "category": "Bottom",
+    "price": 1599,
+    "discount": 10,
+    "image": "https://images.unsplash.com/photo-1506629905607-d9c297d8e7d4?w=600&auto=format&fit=crop",
+    "description": "Elegant wide leg trousers for a polished look.",
+    "sizes": ["S", "M", "L", "XL"],
+    "colors": ["Black"],
+    "stock": 16,
+    "rating": 4.4
+  },
+  {
+    "id": "bottom3",
+    "name": "Beige Casual Pants",
+    "category": "Bottom",
+    "price": 1399,
+    "discount": 20,
+    "image": "https://images.unsplash.com/photo-1624378439575-d8705ad7ae80?w=600&auto=format&fit=crop",
+    "description": "Versatile beige pants for casual and office outfits.",
+    "sizes": ["28", "30", "32", "34"],
+    "colors": ["Beige"],
+    "stock": 22,
+    "rating": 4.3
+  },
+  {
+    "id": "bottom4",
+    "name": "Blue Denim Shorts",
+    "category": "Bottom",
+    "price": 999,
+    "discount": 15,
+    "image": "https://images.unsplash.com/photo-1565084888279-aca607ecce0c?w=600&auto=format&fit=crop",
+    "description": "Comfortable denim shorts for a relaxed summer style.",
+    "sizes": ["S", "M", "L"],
+    "colors": ["Blue"],
+    "stock": 14,
+    "rating": 4.2
+  },
+  {
+    "id": "shoes1",
+    "name": "White Casual Sneakers",
+    "category": "Shoes",
+    "price": 1999,
+    "discount": 10,
+    "image": "https://images.unsplash.com/photo-1542291026-7eec264c27ff?w=600&auto=format&fit=crop",
+    "description": "Clean white sneakers that match everyday outfits.",
+    "sizes": ["6", "7", "8", "9", "10"],
+    "colors": ["White"],
+    "stock": 20,
+    "rating": 4.6
+  },
+  {
+    "id": "shoes2",
+    "name": "Black Running Shoes",
+    "category": "Shoes",
+    "price": 2499,
+    "discount": 15,
+    "image": "https://images.unsplash.com/photo-1542291026-7eec264c27ff?w=600&auto=format&fit=crop",
+    "description": "Lightweight running shoes with a comfortable fit.",
+    "sizes": ["6", "7", "8", "9", "10"],
+    "colors": ["Black"],
+    "stock": 18,
+    "rating": 4.5
+  },
+  {
+    "id": "shoes3",
+    "name": "Beige Slip-On Shoes",
+    "category": "Shoes",
+    "price": 1699,
+    "discount": 10,
+    "image": "https://images.unsplash.com/photo-1525966222134-fcfa99b8ae77?w=600&auto=format&fit=crop",
+    "description": "Easy-to-wear slip-on shoes for casual styling.",
+    "sizes": ["6", "7", "8", "9"],
+    "colors": ["Beige"],
+    "stock": 15,
+    "rating": 4.3
+  },
+  {
+    "id": "shoes4",
+    "name": "Brown Casual Loafers",
+    "category": "Shoes",
+    "price": 2299,
+    "discount": 20,
+    "image": "https://images.unsplash.com/photo-1533867617858-e7b97e060509?w=600&auto=format&fit=crop",
+    "description": "Classic brown loafers for smart casual outfits.",
+    "sizes": ["7", "8", "9", "10"],
+    "colors": ["Brown"],
+    "stock": 12,
+    "rating": 4.4
+  },
+  {
+    "id": "accessory1",
+    "name": "Classic Black Handbag",
+    "category": "Accessories",
+    "price": 1499,
+    "discount": 10,
+    "image": "https://images.unsplash.com/photo-1584917865442-de89df76afd3?w=600&auto=format&fit=crop",
+    "description": "Elegant black handbag for everyday use.",
+    "sizes": ["Free Size"],
+    "colors": ["Black"],
+    "stock": 15,
+    "rating": 4.5
+  },
+  {
+    "id": "accessory2",
+    "name": "Gold Hoop Earrings",
+    "category": "Accessories",
+    "price": 599,
+    "discount": 15,
+    "image": "https://images.unsplash.com/photo-1535632066927-ab7c9ab60908?w=600&auto=format&fit=crop",
+    "description": "Simple gold hoop earrings for a stylish look.",
+    "sizes": ["Free Size"],
+    "colors": ["Gold"],
+    "stock": 30,
+    "rating": 4.4
+  },
+  {
+    "id": "accessory3",
+    "name": "Brown Leather Belt",
+    "category": "Accessories",
+    "price": 799,
+    "discount": 10,
+    "image": "https://images.unsplash.com/photo-1624222247344-550fb60583dc?w=600&auto=format&fit=crop",
+    "description": "Classic brown leather belt for casual and formal outfits.",
+    "sizes": ["S", "M", "L", "XL"],
+    "colors": ["Brown"],
+    "stock": 20,
+    "rating": 4.3
+  },
+  {
+    "id": "accessory4",
+    "name": "Black Stylish Sunglasses",
+    "category": "Accessories",
+    "price": 999,
+    "discount": 20,
+    "image": "https://images.unsplash.com/photo-1511499767150-a48a237f0083?w=600&auto=format&fit=crop",
+    "description": "Stylish black sunglasses to complete your outfit.",
+    "sizes": ["Free Size"],
+    "colors": ["Black"],
+    "stock": 18,
+    "rating": 4.2
+  }
+  
+
+    
+  ],
+  "users": [
+    {
+      "name": "Chakri",
+      "email": "chakri@gmail.com",
+      "password": "Chakri@123",
+      "id": "tDYDvakGxiY"
+    }
+  ],
+  "orders": [],
+  "$schema": "./node_modules/json-server/schema.json"
+}

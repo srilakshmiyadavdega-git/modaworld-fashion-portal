@@ -1,0 +1,193 @@
+.cart-page {
+  width: 90%;
+  max-width: 1200px;
+
+  margin: 50px auto;
+
+  min-height: 60vh;
+}
+
+.cart-page > h1 {
+  margin-bottom: 30px;
+}
+
+.cart-layout {
+  display: grid;
+
+  grid-template-columns:
+    1.6fr 0.8fr;
+
+  gap: 25px;
+}
+
+.cart-items {
+  display: flex;
+
+  flex-direction: column;
+
+  gap: 15px;
+}
+
+.cart-item {
+  background: white;
+
+  border: 1px solid var(--border);
+
+  border-radius: 12px;
+
+  padding: 15px;
+
+  display: flex;
+
+  gap: 20px;
+
+  position: relative;
+}
+
+.cart-item img {
+  width: 130px;
+  height: 150px;
+
+  object-fit: cover;
+
+  border-radius: 8px;
+}
+
+.cart-info {
+  flex: 1;
+}
+
+.cart-info small,
+.cart-info p {
+  color: var(--gray);
+
+  font-size: 12px;
+}
+
+.cart-info h3 {
+  margin: 5px 0;
+}
+
+.quantity {
+  display: flex;
+
+  align-items: center;
+
+  gap: 14px;
+
+  margin-top: 15px;
+}
+
+.quantity button {
+  width: 30px;
+  height: 30px;
+
+  border: 1px solid var(--border);
+
+  background: white;
+
+  border-radius: 5px;
+}
+
+.quantity button:hover {
+  background: var(--primary);
+  color: white;
+}
+
+.delete {
+  position: absolute;
+
+  right: 15px;
+  top: 15px;
+
+  border: none;
+
+  background: none;
+}
+
+.summary {
+  background: white;
+
+  border: 1px solid var(--border);
+
+  border-radius: 12px;
+
+  padding: 25px;
+
+  height: max-content;
+}
+
+.summary > div {
+  display: flex;
+
+  justify-content: space-between;
+
+  margin: 18px 0;
+
+  font-size: 13px;
+}
+
+.green {
+  color: var(--success);
+}
+
+.grand-total {
+  font-size: 16px !important;
+}
+
+.checkout-button,
+.continue-button {
+  display: block;
+
+  text-align: center;
+
+  padding: 13px;
+
+  border-radius: 7px;
+
+  background: var(--primary);
+
+  color: white;
+
+  font-weight: 600;
+
+  margin-top: 20px;
+}
+
+.empty-cart {
+  background: white;
+
+  border-radius: 15px;
+
+  padding: 80px 20px;
+
+  text-align: center;
+}
+
+.empty-cart > div {
+  font-size: 55px;
+}
+
+.empty-cart p {
+  color: var(--gray);
+
+  margin: 10px 0 25px;
+}
+
+.continue-button {
+  max-width: 220px;
+
+  margin: auto;
+}
+
+@media (max-width: 750px) {
+
+  .cart-layout {
+    grid-template-columns: 1fr;
+  }
+
+  .cart-item img {
+    width: 100px;
+    height: 120px;
+  }
+}

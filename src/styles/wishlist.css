@@ -1,0 +1,30 @@
+.wishlist-page {
+  width: 90%;
+  max-width: 1250px;
+
+  margin: 50px auto;
+
+  min-height: 60vh;
+}
+
+.empty-wishlist {
+  background: white;
+
+  text-align: center;
+
+  padding: 80px 20px;
+
+  border-radius: 15px;
+}
+
+.empty-wishlist span {
+  font-size: 65px;
+
+  color: var(--secondary);
+}
+
+.empty-wishlist p {
+  color: var(--gray);
+
+  margin-top: 10px;
+}
