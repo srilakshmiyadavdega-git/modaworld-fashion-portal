@@ -1,7 +1,9 @@
 import React from 'react'
 import { createAsyncThunk,createSlice } from '@reduxjs/toolkit'
+import dbData from "../../../data/db.json"
 
-const API_URL = "http://localhost:5000/products"
+const API_BASE_URL = import.meta.env.VITE_API_URL || "http://localhost:5000";
+const API_URL = `${API_BASE_URL}/products`;
 
 export const getProducts = createAsyncThunk(
   "products/getProducts",
@@ -17,6 +19,9 @@ export const getProducts = createAsyncThunk(
 
       return data;
     } catch (error) {
+      if (dbData && dbData.products) {
+        return dbData.products;
+      }
       return rejectWithValue(error.message);
     }
   }
@@ -36,6 +41,10 @@ export const getProductById = createAsyncThunk(
 
       return data;
     } catch (error) {
+      if (dbData && dbData.products) {
+        const found = dbData.products.find((item) => String(item.id) === String(id));
+        if (found) return found;
+      }
       return rejectWithValue(error.message);
     }
   }
